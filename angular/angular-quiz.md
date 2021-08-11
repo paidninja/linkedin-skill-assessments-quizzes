@@ -539,7 +539,7 @@ forms markup for the username field?
 - [x]
 
 ```javascript
-<input type="text" formControlName="username" #userName="ngModer>
+<input type="text" formControlName="username" #userName="ngModel">
     <span *ngIf="userName.errors.minlength"›
       Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
     </span>
